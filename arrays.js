@@ -5,8 +5,12 @@ function addElementToBeginningOfArray(array, element) {
 }
 
 function destructivelyAddElementToBeginningOfArray(array, element) {
+<<<<<<< HEAD
   array.unshift(element)
   return array
+=======
+  return [array.unshift(element)]
+>>>>>>> c9b736a2b443a69e9376b96947c8295d5e524839
 }
 
 function addElementToEndOfArray(array, element) {
@@ -14,8 +18,12 @@ function addElementToEndOfArray(array, element) {
 }
 
 function destructivelyAddElementToEndOfArray(array, element) {
+<<<<<<< HEAD
   array.push(element)
   return array
+=======
+  return [array.push(element)]
+>>>>>>> c9b736a2b443a69e9376b96947c8295d5e524839
 }
 
 function accessElementInArray (array, index) {
@@ -23,8 +31,12 @@ function accessElementInArray (array, index) {
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
+<<<<<<< HEAD
   array.shift()
   return array
+=======
+  return array.shift()
+>>>>>>> c9b736a2b443a69e9376b96947c8295d5e524839
 }
 
 function removeElementFromBeginningOfArray(array) {
@@ -32,8 +44,12 @@ function removeElementFromBeginningOfArray(array) {
 }
 
 function destructivelyRemoveElementFromEndOfArray(array) {
+<<<<<<< HEAD
   array.pop()
   return array
+=======
+  return array.pop()
+>>>>>>> c9b736a2b443a69e9376b96947c8295d5e524839
 }
 
 function removeElementFromEndOfArray(array) {
